@@ -21,7 +21,7 @@ It uses [THREE.MeshLine](https://github.com/spite/THREE.MeshLine) created by [@t
     - Add lights
     - Export on .fbx format
 
-  - Blender
+  - Blender ( is not necessary but I am more confortable working & exporting with Blender )
     - Import from Blender ( change -Z forward to Z fordward )
     - Optimize ( Group meshes / reduce number of lights / add materials )
     - Use Three.js Blender Export to export on JSON format as a scene
