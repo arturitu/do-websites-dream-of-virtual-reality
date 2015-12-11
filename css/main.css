@@ -1,0 +1,30 @@
+body {
+  background-color: #444444;
+  margin: 0px;
+  overflow: hidden;
+  font-family: 'Lato', helvetica;
+  color: #ffffff;
+  font-size: 14px;
+}
+a {
+  color: #aaaaaa;
+  font-weight: bold;
+  text-decoration: none;
+}
+footer {
+  position: absolute;
+  margin: 0 auto;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  line-height: 24px;
+}
+
+.clickable {
+  cursor:pointer;
+}
+
+.hidden{
+  display: none;
+}
