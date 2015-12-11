@@ -1,14 +1,15 @@
 # Do websites dream of Virtual Reality
-An webGL experiment made with the Awwwards team to share ow it's possible to do WebVR today
+An webGL experiment made with the Awwwards team to share ow it's possible to do WebVR today ( Optimized for Oculus Rift & Google Cardboard )
 
 Demo - http://awwwards.unboring.net
+
 Awwwards blog entry - http://www.awwwards.com/do-websites-dream-of-virtual-reality.html
 
 
 [![Do Websites Dream of Virtual Reality?](/assets/share.jpg)](http://awwwards.unboring.net)
 # About
 
-This is a simple way to start to do webVR using [three.js](http://www.threejs.org), [WebVR boilerplate](https://github.com/borismus/webvr-boilerplate) & Web Audio API with THREE.Audio & THREE.AudioListener to have 3D positional audio in the scene
+This is a simple way to start to do webVR using [three.js](http://www.threejs.org), [WebVR boilerplate](https://github.com/borismus/webvr-boilerplate) & Web Audio API
 
 It uses [THREE.MeshLine](https://github.com/spite/THREE.MeshLine) created by [@thespite](http://twitter.com/thespite)
 
@@ -16,28 +17,34 @@ It uses [THREE.MeshLine](https://github.com/spite/THREE.MeshLine) created by [@t
 
 - From art to code
   - Cinema4D
-    3D Art created with Cinema4D / Exported on .fbx format
+    - Create 3D Art
+    - Add lights
+    - Export on .fbx format
 
   - Blender
-    Imported from Blender / Optimized/simplified / Use Three.js Blender Export to export on JSON format as a scene
+    - Import from Blender ( change -Z forward to Z fordward )
+    - Optimize (Group meshes / reduce number of lights / add materials)
+    - Use Three.js Blender Export to export on JSON format as a scene
 
   - Text editor (Atom)
-    Load JSON file with THREE.ObjectLoader and load the assets into our scene
+    - Load JSON file with THREE.ObjectLoader and load the assets into our scene
 
 - From music to code
 
   - Audacity
-    Compress mp3 audio
+    - Compress mp3 audio
 
   - Text editor (Atom)
-    Load mp3 file with THREE.Audio and added to an 3D Object into the scene ( uses THREE.AudioListener too )
+    - Load mp3 file with THREE.Audio and added to an 3D Object into the scene ( uses THREE.AudioListener too )
+
+
 
 
 # Credits
 
-Arturo Paracuellos [www.unboring.net](http://www.unboring.net) [@arturitu](http://twitter.com/arturitu)
+Arturo Paracuellos / [@arturitu](http://twitter.com/arturitu) ( [Unboring.net](http://www.unboring.net) )
 
-Art by Gus T.M & Jessica Travieso ( Awwwards )
+Art by Gus T.M & Jessica Travieso ( [Awwwards.com](http://awwwwards.com) )
 
 Music by Gus T.M
 
