@@ -1,5 +1,5 @@
 # Do websites dream of Virtual Reality
-An webGL experiment made with the Awwwards team to share ow it's possible to do WebVR today ( Optimized for Oculus Rift & Google Cardboard )
+An webGL experiment made with the Awwwards team to share how is possible to do WebVR today ( Optimized for Oculus Rift & Google Cardboard )
 
 Demo - http://awwwards.unboring.net
 
@@ -23,10 +23,10 @@ It uses [THREE.MeshLine](https://github.com/spite/THREE.MeshLine) created by [@t
 
   - Blender
     - Import from Blender ( change -Z forward to Z fordward )
-    - Optimize (Group meshes / reduce number of lights / add materials)
+    - Optimize ( Group meshes / reduce number of lights / add materials )
     - Use Three.js Blender Export to export on JSON format as a scene
 
-  - Text editor (Atom)
+  - Text editor ( Atom )
     - Load JSON file with THREE.ObjectLoader and load the assets into our scene
 
 - From music to code
@@ -34,7 +34,7 @@ It uses [THREE.MeshLine](https://github.com/spite/THREE.MeshLine) created by [@t
   - Audacity
     - Compress mp3 audio
 
-  - Text editor (Atom)
+  - Text editor ( Atom )
     - Load mp3 file with THREE.Audio and added to an 3D Object into the scene ( uses THREE.AudioListener too )
 
 
