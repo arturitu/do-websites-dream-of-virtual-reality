@@ -40,7 +40,7 @@ It uses [THREE.MeshLine](https://github.com/spite/THREE.MeshLine) created by [@t
 
 
 
-# Credits
+# # Credits
 
 Arturo Paracuellos / [@arturitu](http://twitter.com/arturitu) ( [Unboring.net](http://www.unboring.net) )
 
